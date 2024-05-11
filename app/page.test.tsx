@@ -11,5 +11,5 @@ it("App Router: Works with Server Components", () => {
 
 it("should render Lam Hung text", () => {
   render(<Page />);
-  expect(screen.getByText('Lam Hung')).toBeInTheDocument()
+  expect(screen.getByText('Lam Hung2')).toBeInTheDocument()
 })
